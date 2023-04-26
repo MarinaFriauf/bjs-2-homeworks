@@ -78,10 +78,10 @@ function makeWork (arrOfArr, func) {
   let answer = -Infinity;
 
   for (element of arrOfArr){
-   answer= func(...element);
+   answer = func(...element);
     if (maxWorkerResult < answer) {
      maxWorkerResult = answer;
   }
 }
-return maxWorkerResult;
+ return maxWorkerResult;
 }
